@@ -10,6 +10,7 @@ terraform {
     bucket  = "dev-carl-tf-bucket-039817790672-us-east-1-an"
     region  = "us-east-1"
     encrypt = true
+    key     = "eks/terraform.tfstate"
   }
 }
 
